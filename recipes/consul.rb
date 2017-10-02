@@ -53,3 +53,4 @@ template "/etc/consul/config.json" do
 end
 
 service 'consul'
+service 'monit'
