@@ -9,3 +9,5 @@ version          "0.1.0"
 %w{ centos }.each do |os|
   supports os
 end
+
+depends 'coupa-base', '~> 1.6.0'
