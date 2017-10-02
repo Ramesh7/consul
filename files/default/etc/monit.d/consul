@@ -1,0 +1,4 @@
+check process consul with pidfile /var/run/consul.pid
+    start = "/sbin/service consul start"
+    stop  = "/sbin/service consul stop"
+    if 3 restarts within 5 cycles then alert

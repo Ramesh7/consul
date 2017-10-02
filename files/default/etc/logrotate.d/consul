@@ -1,0 +1,6 @@
+/var/log/*.log {
+  sharedscripts
+  lastaction
+    /opt/coupa/bin/store_logs.rb $@ || :
+  endscript
+}
